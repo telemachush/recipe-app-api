@@ -6,9 +6,5 @@ services:
 
 install: pip install docker-compose
 
-<<<<<<< HEAD
 script:
   - docker-compose run app sh -c "python manage.py test && flake8"
-=======
-script: docker-compose run --rm app sh -c "python manage.py test && flake8"
->>>>>>> c4dd557b4f9d2f720f95e18bf5fd20ef8cf245b3
